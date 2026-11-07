@@ -1,0 +1,33 @@
+Origin: burc334
+Label: burc334
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: Tweaks by burc334
+Date: Sat, 07 Nov 2026 20:33:39 GMT
+MD5Sum:
+ f5f0f834eefd1c98ea106cd9b02976d6            12146 Packages
+ a6d07478ee86b8aa0028f2699679b972             2785 Packages.gz
+ 133883b99b6c1324fe6f32d27e67b52f             2684 Packages.xz
+ b85423449dbe2016dce7fbaa49d6ce58             2607 Packages.zst
+ 7ae24324ede676d39cf45a0ddfd898dc             2931 Packages.bz2
+SHA1:
+ c5b18f43dd591e257b7b1e43370ff78cb6890aeb            12146 Packages
+ a5356478f0c8b3993990b39ef2d3271d3b201bc1             2785 Packages.gz
+ 863864bd3d4353af94701ae5515aee14ad4172bf             2684 Packages.xz
+ f10a610825253a7259fcd22e400903a5806ce26b             2607 Packages.zst
+ cdf9bebfab109da87b2300ce5d04e8e89f670f76             2931 Packages.bz2
+SHA256:
+ 4a5059bfbfc2e5b060bf170aa1f65f59e50f4deba019dfeb748822cd0dcc1967            12146 Packages
+ 132cd010f4f8ac0a6873b429ab945d37ead1712fc30e1f479f46c0a679dabf18             2785 Packages.gz
+ 3d3d6a7f25830b035daa9200fa6b6162ca9fb93fac9bb613c454b5188562ed80             2684 Packages.xz
+ 5337986dc212e02d83a3097ec418c56959045d04baa43675f8c7c3221ede627d             2607 Packages.zst
+ 48707c094eee27445ab43c2c434b9cb0e9a1d2c2490a4bcc20bf3bd357e2c374             2931 Packages.bz2
+SHA512:
+ 2f3c9fa1e99e71599ab6719d398eec0815d2d7ea2e846a234f615a9de5c4d84fea7ab6095b018c480dde865e610473895158e2f66bef5ef2d748ee936a13f4cf            12146 Packages
+ dca65c080ef9b4b261d4c0ea0ba813c83233f18a0c60cc1683a5d8bfcdcb7015b3205490e7b6c2a2c61b2d8a5771c081200b47b08a779ae662877f0e1d4f7fdd             2785 Packages.gz
+ ee6e9a6826ae56ae8efdf6abb733de1e64c4a6fa95f3571d72ef5be67539a01a182d486cc40470f87715a3010b7ee2d9d8bfd7bee354f9bacb96bbe1759390ec             2684 Packages.xz
+ 2d12e2f8d5eca3d5807162a33737be710b6632953051b5bb2561216566434fcf600213ec6d675e04ad9eca5f8d8489fba64cee4c13427578bb69f931a091e519             2607 Packages.zst
+ 8ea11eb9fb3c678d04fbb4c555bdd9b6e6fd510a217ef70cc338330ef3aa83fb0faec0759efc60a45f6b812239fc09c4d12bf3aae52af6bf8ddd43392af14b33             2931 Packages.bz2
