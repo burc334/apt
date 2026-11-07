@@ -1,43 +1,115 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>burc334 APT repository</title>
-<style>
-  :root { color-scheme: dark; }
-  body { margin: 0; background: #0b1220; color: #e2e8f0; font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-  main { max-width: 760px; margin: 0 auto; padding: 56px 24px 80px; }
-  img { width: 96px; height: 96px; border-radius: 24px; }
-  h1 { margin: 24px 0 8px; font-size: 36px; }
-  h2 { margin-top: 40px; font-size: 20px; }
-  p { color: #94a3b8; }
-  code { display: inline-block; padding: 12px 14px; border-radius: 10px; background: #111c31; color: #7dd3fc; word-break: break-all; }
-  ul { padding-left: 20px; }
-  li { margin: 8px 0; }
-  a { color: #7dd3fc; }
-</style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="light dark" name="color-scheme"/>
+<meta content="#7C3AED" name="theme-color"/>
+<meta content="Install and update the jailbreak tweaks from a single Sileo source." name="description"/>
+<meta content="APT repository for jailbreak tweaks by burc334" property="og:title"/>
+<meta content="Install and update the jailbreak tweaks from a single Sileo source." property="og:description"/>
+<meta content="https://burc334.github.io/apt/CydiaIcon.png" property="og:image"/>
+<meta content="website" property="og:type"/>
+<title>APT repository for jailbreak tweaks by burc334</title>
+<link href="CydiaIcon.png" rel="icon"/>
+<link href="style.css?v=7124c0b5" rel="stylesheet"/>
 </head>
 <body>
-<main>
-  <img src="CydiaIcon.png" alt="burc334 repo icon">
-  <h1>burc334</h1>
-  <p>APT repository for the <code>com.burc334.*</code> packages.</p>
-  <h2>Add to Sileo</h2>
-  <p>Copy this source URL:</p>
-  <code>https://burc334.github.io/apt/</code>
-  <p><a href="sileo://source/https://burc334.github.io/apt/">Open in Sileo</a></p>
-  <h2>Packages</h2>
-  <ul>
-    <li>NightNight</li>
-    <li>NotiFilter</li>
-    <li>Always Show Emoji Key</li>
-    <li>Carrier Hider</li>
-    <li>Hide Breadcrumbs</li>
-    <li>CopyLogFix18</li>
-    <li>SwipeSelection Reborn</li>
-    <li>AirDrop IPA Fix</li>
-  </ul>
+<main class="page">
+<header class="hero">
+<div class="hero-copy">
+<p class="eyebrow">Signed Sileo source</p>
+<h1>APT repository for jailbreak tweaks by burc334</h1>
+<p class="summary">Install and update the jailbreak tweaks from a single Sileo source.</p>
+<div class="actions">
+<a class="button" href="sileo://source/https://burc334.github.io/apt/">Add to Sileo</a>
+<button class="button secondary" id="copy-source" type="button">Copy source URL</button>
+</div>
+<span class="visually-hidden" id="copy-status" role="status" aria-live="polite"></span>
+</div>
+<img alt="" class="hero-icon" height="112" src="CydiaIcon.png" width="112"/>
+</header>
+<section class="card">
+<h2>Source</h2>
+<p class="note">Add this source in Sileo:</p>
+<p><code id="source-url">https://burc334.github.io/apt/</code></p>
+</section>
+<section class="card">
+<h2>Packages</h2>
+<table class="tweak-table">
+<thead>
+<tr>
+<th scope="col">Tweak</th>
+<th scope="col">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="tweak-link" href="https://burc334.github.io/NightNight/"><img alt="" class="tweak-icon" height="32" src="icons/nightnight.png" width="32"/>NightNight</a> </td>
+<td>Hibernate device before the battery dies to save jailbroken state.</td>
+</tr>
+<tr>
+<td><a class="tweak-link" href="https://burc334.github.io/NotiFilter/"><img alt="" class="tweak-icon" height="32" src="icons/notifilter.png" width="32"/>NotiFilter</a> </td>
+<td>Filter, mute, or allow notifications by app, content, and schedule.</td>
+</tr>
+<tr>
+<td><a class="tweak-link" href="https://burc334.github.io/SwipeSelectionReborn/"><img alt="" class="tweak-icon" height="32" src="icons/swipeselectionreborn.png" width="32"/>SwipeSelection Reborn</a> </td>
+<td>Swipe the keyboard to move the caret and select text.</td>
+</tr>
+<tr>
+<td><a class="tweak-link" href="https://burc334.github.io/CopyLogFix18/"><img alt="" class="tweak-icon" height="32" src="icons/copylogfix18.png" width="32"/>CopyLogFix18</a> </td>
+<td>Fix the CopyLog 1.7.x pasted crash on iOS 18.</td>
+</tr>
+<tr>
+<td><a class="tweak-link" href="https://burc334.github.io/HideBreadcrumbs/"><img alt="" class="tweak-icon" height="32" src="icons/hidebreadcrumbs.png" width="32"/>Hide Breadcrumbs</a> </td>
+<td>Hide the status bar "Back to App" breadcrumb.</td>
+</tr>
+<tr>
+<td><a class="tweak-link" href="https://burc334.github.io/AlwaysShowEmojiKey/"><img alt="" class="tweak-icon" height="32" src="icons/alwaysshowemojikey.png" width="32"/>Always Show Emoji Key</a> </td>
+<td>Keep the native emoji key always visible beside the spacebar.</td>
+</tr>
+<tr>
+<td><a class="tweak-link" href="https://burc334.github.io/AirDropIPAFix/"><img alt="" class="tweak-icon" height="32" src="icons/airdropipafix.png" width="32"/>AirDrop IPA Fix</a> </td>
+<td>Stop AirDrop from installing .ipa files automatically.</td>
+</tr>
+<tr>
+<td><a class="tweak-link" href="https://burc334.github.io/CarrierHider/"><img alt="" class="tweak-icon" height="32" src="icons/carrierhider.png" width="32"/>Carrier Hider</a> </td>
+<td>Hide the carrier name in the status bar.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section class="card">
+<h2>Install</h2>
+<ol>
+<li>Open Sileo and go to <strong>Sources</strong>.</li>
+<li>Tap <strong>+</strong> and enter <code>https://burc334.github.io/apt/</code>.</li>
+<li>Add the source, refresh, and install a package.</li>
+</ol>
+<p class="note">All tweaks tested on iOS 18.4.1. Both rootless and roothide builds are included.</p>
+</section>
+<section class="card">
+<h2>Signing</h2>
+<p>The repository is signed. The public key is available at <a href="repo-public.key">repo-public.key</a>.</p>
+</section>
 </main>
+<footer class="footer">
+<p>APT repository for jailbreak tweaks developed by burc334</p>
+</footer>
+<script>
+    const copyButton = document.getElementById('copy-source');
+    const copyStatus = document.getElementById('copy-status');
+    copyButton.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText('https://burc334.github.io/apt/');
+        copyButton.textContent = 'Copied';
+        copyStatus.textContent = 'Source URL copied.';
+      } catch {
+        copyButton.textContent = 'Select URL above';
+        copyStatus.textContent = 'Copy failed. Select the source URL above.';
+      }
+    });
+  </script>
 </body>
 </html>

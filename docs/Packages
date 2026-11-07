@@ -76,25 +76,6 @@ SileoDepiction: https://burc334.github.io/AlwaysShowEmojiKey/depiction.json
 
 Package: com.burc334.carrierhider
 Version: 1.0.0
-Architecture: iphoneos-arm64e
-Maintainer: burc334
-Installed-Size: 136
-Depends: ellekit, firmware (>= 18.0)
-Filename: pool/com.burc334.carrierhider_1.0.0_iphoneos-arm64e.deb
-Size: 3624
-MD5sum: 2e9bb1de59c2b4e9c0102f05d5899532
-SHA1: d0bb3f13152701c93d80dc9b3829c8ccfe8a3c10
-SHA256: 21c2a06628f55090fcabf5eb1d368d5f68c8439901ea984903bff41d1effeaa9
-Section: Tweaks
-Description: Hides the carrier name in the iOS status bar while keeping signal and network indicators.
-Author: burc334
-Depiction: https://burc334.github.io/CarrierHider/
-Icon: https://burc334.github.io/CarrierHider/icon.png
-Name: Carrier Hider
-SileoDepiction: https://burc334.github.io/CarrierHider/depiction.json
-
-Package: com.burc334.carrierhider
-Version: 1.0.0
 Architecture: iphoneos-arm64
 Maintainer: burc334
 Installed-Size: 136
@@ -112,24 +93,24 @@ Icon: https://burc334.github.io/CarrierHider/icon.png
 Name: Carrier Hider
 SileoDepiction: https://burc334.github.io/CarrierHider/depiction.json
 
-Package: com.burc334.copylogfix18
+Package: com.burc334.carrierhider
 Version: 1.0.0
 Architecture: iphoneos-arm64e
 Maintainer: burc334
-Installed-Size: 200
-Depends: mobilesubstrate, firmware (>= 16.0), me.tomt000.copylog (>= 1.7)
-Filename: pool/com.burc334.copylogfix18_1.0.0_iphoneos-arm64e.deb
-Size: 4790
-MD5sum: a0ab114cbf4364e55bd2a1fcb9c57f95
-SHA1: 6f86df03c20dd00afb7f7486122bfbcec205d747
-SHA256: cb1a9ab80e540aefb9a1774a496efbff24d779138215ac836f043c7f09894482
+Installed-Size: 136
+Depends: ellekit, firmware (>= 18.0)
+Filename: pool/com.burc334.carrierhider_1.0.0_iphoneos-arm64e.deb
+Size: 3624
+MD5sum: 2e9bb1de59c2b4e9c0102f05d5899532
+SHA1: d0bb3f13152701c93d80dc9b3829c8ccfe8a3c10
+SHA256: 21c2a06628f55090fcabf5eb1d368d5f68c8439901ea984903bff41d1effeaa9
 Section: Tweaks
-Description: iOS 18 compatibility fix for CopyLog 1.7.x that prevents the pasted daemon crash caused by DRPasteAnnouncementContinuityEndpoint.
+Description: Hides the carrier name in the iOS status bar while keeping signal and network indicators.
 Author: burc334
-Depiction: https://burc334.github.io/CopyLogFix18/
-Icon: https://burc334.github.io/CopyLogFix18/icon.png
-Name: CopyLogFix18
-SileoDepiction: https://burc334.github.io/CopyLogFix18/depiction.json
+Depiction: https://burc334.github.io/CarrierHider/
+Icon: https://burc334.github.io/CarrierHider/icon.png
+Name: Carrier Hider
+SileoDepiction: https://burc334.github.io/CarrierHider/depiction.json
 
 Package: com.burc334.copylogfix18
 Version: 1.0.0
@@ -142,6 +123,25 @@ Size: 4462
 MD5sum: 0bb56ea186bb298c9324b00c8008c709
 SHA1: 5975d64bb894beb42c5d7837723d2d82ee233d74
 SHA256: 2c7bcc655536517e3fa04946d8c93121ac008f5f95f17d7a6dd63d840833cbe6
+Section: Tweaks
+Description: iOS 18 compatibility fix for CopyLog 1.7.x that prevents the pasted daemon crash caused by DRPasteAnnouncementContinuityEndpoint.
+Author: burc334
+Depiction: https://burc334.github.io/CopyLogFix18/
+Icon: https://burc334.github.io/CopyLogFix18/icon.png
+Name: CopyLogFix18
+SileoDepiction: https://burc334.github.io/CopyLogFix18/depiction.json
+
+Package: com.burc334.copylogfix18
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: burc334
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 16.0), me.tomt000.copylog (>= 1.7)
+Filename: pool/com.burc334.copylogfix18_1.0.0_iphoneos-arm64e.deb
+Size: 4790
+MD5sum: a0ab114cbf4364e55bd2a1fcb9c57f95
+SHA1: 6f86df03c20dd00afb7f7486122bfbcec205d747
+SHA256: cb1a9ab80e540aefb9a1774a496efbff24d779138215ac836f043c7f09894482
 Section: Tweaks
 Description: iOS 18 compatibility fix for CopyLog 1.7.x that prevents the pasted daemon crash caused by DRPasteAnnouncementContinuityEndpoint.
 Author: burc334
@@ -228,25 +228,6 @@ SileoDepiction: https://burc334.github.io/NightNight/depiction.json
 
 Package: com.burc334.notifilter
 Version: 1.0.0
-Architecture: iphoneos-arm64e
-Maintainer: burc334
-Installed-Size: 540
-Depends: mobilesubstrate, preferenceloader, firmware (>= 18.0)
-Filename: pool/com.burc334.notifilter_1.0.0_iphoneos-arm64e.deb
-Size: 97008
-MD5sum: b5e728705787d74178b6fefb63215090
-SHA1: 623a7dd5f569be19a0e9ef6337319650237da1c0
-SHA256: a82e265d143aa039d47e2d78ceaf74d6919e7dd0ec8c5cb7d2cea4a37042e207
-Section: Tweaks
-Description: Filter, mute, or allow iOS 18 notifications by app, content, and schedule.
-Author: burc334
-Depiction: https://burc334.github.io/NotiFilter/
-Icon: https://burc334.github.io/NotiFilter/icon.png
-Name: NotiFilter
-SileoDepiction: https://burc334.github.io/NotiFilter/depiction.json
-
-Package: com.burc334.notifilter
-Version: 1.0.0
 Architecture: iphoneos-arm64
 Maintainer: burc334
 Installed-Size: 540
@@ -264,26 +245,24 @@ Icon: https://burc334.github.io/NotiFilter/icon.png
 Name: NotiFilter
 SileoDepiction: https://burc334.github.io/NotiFilter/depiction.json
 
-Package: com.burc334.swipeselectionreborn
+Package: com.burc334.notifilter
 Version: 1.0.0
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: burc334
-Installed-Size: 444
-Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0)
-Conflicts: com.icraze.swipeselection, com.iky1e.swipeselection, com.burc334.swipeselectionx
-Replaces: com.burc334.swipeselectionx
-Filename: pool/com.burc334.swipeselectionreborn_1.0.0_iphoneos-arm64.deb
-Size: 45792
-MD5sum: dd445321b24350e59b2e1600a8df1444
-SHA1: e0d676b525c22e877674b35d8415093b4c6e1163
-SHA256: d4c5a4aba566330dd1c32f3f4ec1ddccc4f5a304bc37f6a42c9eba26afeeb3e4
+Installed-Size: 540
+Depends: mobilesubstrate, preferenceloader, firmware (>= 18.0)
+Filename: pool/com.burc334.notifilter_1.0.0_iphoneos-arm64e.deb
+Size: 97008
+MD5sum: b5e728705787d74178b6fefb63215090
+SHA1: 623a7dd5f569be19a0e9ef6337319650237da1c0
+SHA256: a82e265d143aa039d47e2d78ceaf74d6919e7dd0ec8c5cb7d2cea4a37042e207
 Section: Tweaks
-Description: Swipe the keyboard to move the cursor and select text on iOS 16+.
+Description: Filter, mute, or allow iOS 18 notifications by app, content, and schedule.
 Author: burc334
-Depiction: https://burc334.github.io/SwipeSelectionReborn/
-Icon: https://burc334.github.io/SwipeSelectionReborn/icon.png
-Name: SwipeSelection Reborn
-SileoDepiction: https://burc334.github.io/SwipeSelectionReborn/depiction.json
+Depiction: https://burc334.github.io/NotiFilter/
+Icon: https://burc334.github.io/NotiFilter/icon.png
+Name: NotiFilter
+SileoDepiction: https://burc334.github.io/NotiFilter/depiction.json
 
 Package: com.burc334.swipeselectionreborn
 Version: 1.0.0
@@ -298,6 +277,27 @@ Size: 54288
 MD5sum: 8e9b0bbc6738ab2b8ffdd37650647dd5
 SHA1: c6a5f6b1da71d39a655a894ea7b59ea1927b5957
 SHA256: ac540b08305060f4bb9324765dd55ffc4850bbfce3d434e00cb65b5f11176fe4
+Section: Tweaks
+Description: Swipe the keyboard to move the cursor and select text on iOS 16+.
+Author: burc334
+Depiction: https://burc334.github.io/SwipeSelectionReborn/
+Icon: https://burc334.github.io/SwipeSelectionReborn/icon.png
+Name: SwipeSelection Reborn
+SileoDepiction: https://burc334.github.io/SwipeSelectionReborn/depiction.json
+
+Package: com.burc334.swipeselectionreborn
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: burc334
+Installed-Size: 444
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0)
+Conflicts: com.icraze.swipeselection, com.iky1e.swipeselection, com.burc334.swipeselectionx
+Replaces: com.burc334.swipeselectionx
+Filename: pool/com.burc334.swipeselectionreborn_1.0.0_iphoneos-arm64.deb
+Size: 45792
+MD5sum: dd445321b24350e59b2e1600a8df1444
+SHA1: e0d676b525c22e877674b35d8415093b4c6e1163
+SHA256: d4c5a4aba566330dd1c32f3f4ec1ddccc4f5a304bc37f6a42c9eba26afeeb3e4
 Section: Tweaks
 Description: Swipe the keyboard to move the cursor and select text on iOS 16+.
 Author: burc334
