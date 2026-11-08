@@ -6,6 +6,7 @@ TMP="$(mktemp -d)"
 trap 'rm -rf "$TMP"' EXIT
 
 repos=(
+    AppDecrypt
     NightNight
     NotiFilter
     AlwaysShowEmojiKey
