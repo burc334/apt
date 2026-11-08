@@ -1,5 +1,5 @@
 -----BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA512
+Hash: SHA256
 
 Origin: burc334
 Label: burc334
@@ -9,42 +9,43 @@ Codename: ios
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Tweaks by burc334
-Date: Sat, 07 Nov 2026 20:36:03 GMT
+Date: Sun, 08 Nov 2026 19:12:16 GMT
 MD5Sum:
- f29a8548b185facc438b8fde6cd22237            12146 Packages
- eb84429d4fbb801ebb7f393a82179754             2786 Packages.gz
- 2bdfda5ffe253132e78d21ced9c56ee1             2684 Packages.xz
- 747d67488e34265c84830189e53048f0             2613 Packages.zst
- 22a7d0969426648541457ccdf48f7c8d             2934 Packages.bz2
+ 1ccf93e5aa99a963ac10f1917129caaa            12146 Packages
+ bc765aec68d0ad12cc4031a87d050c3e             2799 Packages.gz
+ f3811fe1acf6657c5d7fbe022fea5bf5             2688 Packages.xz
+ ecfd361740d942976628ab921e5bd492             2615 Packages.zst
+ a05d928a5ca5948735e208445bb2b8f2             2960 Packages.bz2
 SHA1:
- 4994a504f282a75f0cf39a9dac3deb984a2495b9            12146 Packages
- 5bc373f85d9205e07d87b30bb5b77aa2c15b3dc1             2786 Packages.gz
- d5fc9fa2befc1f648cc669eb5a926afddcb7097a             2684 Packages.xz
- 22c30b6c6f356c5b0fc67f0167a4acc19dc673f3             2613 Packages.zst
- a104a54112c2e72804655c8fe718daa96edf20c5             2934 Packages.bz2
+ 6569f83107844b3d7ed5bcf86a7401f4a426df9d            12146 Packages
+ 5859cd9d1b7034753e21af3e2bccb4f23481e1a0             2799 Packages.gz
+ b34c535004bd4d6ef07ed6adaa39088baa74097b             2688 Packages.xz
+ 3eafcf7f4ba10439fda4756771c3866f61135673             2615 Packages.zst
+ 2cbb37bdeaf94d02991465bb46eabc1ef9704c2e             2960 Packages.bz2
 SHA256:
- 00462fe46899fe38f7d3a58dde87545e455678ada434c7ece1d651aa19264126            12146 Packages
- 8b3454996c1e63f984faf60e0e3b87fd8302e88b2b15b60d8beebcc98446d409             2786 Packages.gz
- 01f4f4efc0548fdb299add07c11b163fd8fe7a497f102203af353e735396cc85             2684 Packages.xz
- b60f5aae5ac492ec860e7230128528610350690eb558269ec5419eeb72e9c15e             2613 Packages.zst
- bbd35e05eefcef469013638c4a22e13d621fb52c6cd9a5674209797911b93a89             2934 Packages.bz2
+ b03ce6409bcb50953c76bbf54e5466b257d135d5eda10b3e61f5d2d4ff5db611            12146 Packages
+ eef7f3eacbfe7dcbdd7c149dfe711d816ab23498da831bfe7bac1275d8927996             2799 Packages.gz
+ 9f0b717c343007827eca37266e5f00bde620d15fe87d78e094afed371fef2a98             2688 Packages.xz
+ 35372c81606cabefb7c202e72dd35ce1f6f1e1bf463f1522e40a8501f7fedc67             2615 Packages.zst
+ d60aaa13ce84478477780738332cfa05808b101e59feb65778e72c352d3e5c85             2960 Packages.bz2
 SHA512:
- 2fcec1e1c7a7cdad5aa6eb59e74cb65ab13d10e7b5172a94a81a1e40c29be4613ed1789bb9a8f66e8f5211aba9a7d52212260402846bc18581adafbdb1a269f4            12146 Packages
- 49a72b1fcf5a51e8b06dc5c8b3c4751d6b6e1eb65d15c4213cfa38be8c7b93ba3b55f207c468559b3f5c47c2bb656d3799cc0ba8769959418952f10cd044950e             2786 Packages.gz
- 9b53f18f7fdc40bcd4c9ee571a12ab2923d96ccc200308a84ced05a652ba7c98f15b93dd6c1899d2d70972ea49333fd454dd7663ab1611e9c305151979c14ac1             2684 Packages.xz
- 92b09d0f61d6895069d5699d14fe7315f0f9864686736f10aa172ecd40fbf316cba2e576f47b9b75da751739702c052da9590c20c4645f747a15763f9ed6b2d7             2613 Packages.zst
- 8560b4bf97d94f37646e9614699fe8fd1e679d01ea15784d3c6e23f435f50c80198bd31e5ef7cb59f8035fe57b1088cff6037fa5928f8414c3d645a6f2cefc2d             2934 Packages.bz2
+ 04a0eeead48cde4aa3b9277257834b63a98864ce5c271fed7c3f06132e25a7273d159d3cbf71801bb6883ab7d9a06692fab98d589edc38a437da7a9db92465df            12146 Packages
+ 42046e37a9bb00e9e9ccb4e308b42d21d0d1e91e7df9679f4aa88970e31b12acbf589a375cc6e656d277daf0992fa745b135af8d1760f322cb1ec869ad2f5779             2799 Packages.gz
+ f264f74f9ceda42db4acfef1872691ad5c4811af98010589fa8144733d1e7ea114554f7565b725bec2b618cf90f1b6d7d12660b1e6e0a8abbc45a35e5cd783af             2688 Packages.xz
+ 526b8a8f3657f6a5db1ae593ec0f53a42d003e6fc9b24f829faecbbf9bfaf293bc2d717f728f6f1f5a702147b39f3abd021ebcd6fed900b9c45123f0b7305269             2615 Packages.zst
+ ccb47ae57f3064bba06a077ee96887bddda8b7790ac6bd5e28e3b2768e906ac4fe168a992518aef3553755e4539c8e82566f9c5d2322f4d6f60bae05dab8dba7             2960 Packages.bz2
 -----BEGIN PGP SIGNATURE-----
 
-iQHVBAEBCgA/FiEEPa/EZh6vbvhbJOKGM06Hb3c3IisFAmrvi7QhHGJ1cmMzMzRA
-dXNlcnMubm9yZXBseS5naXRodWIuY29tAAoJEDNOh293NyIrQLQMAI5q6SSTsR+T
-RadKufqnhSDnH9ltQMMQX1NNeE327ZNKt3HcQFV+cgHSUdFIoug4VsIUi0RnCLW2
-ykqVJV2K3YjuHsM7zP71ogQK9ORNaOF/FWWk4YbeBeKF/WQ6yN1qQCFbH91kl8zN
-5PdgnNPb9J+2FuvQyMmFEbK0K9bWRldLo6HLLMHXLaOy3EJE/hc4nB00tOu/eio4
-jpnlIOgVvgABsJK+lEzB0tIZ0Ob/sjCvUVR7HEs7oFD+Kk4itmVPB0Mxs3ifKnGm
-ZyJ8+CTGne3/gnvNy5v77NrH0bsbuzKyPGjow6bKHmq45Qr8LHCJU784j0i76GnD
-A6+/yYo2A7AtXPFfXwzZ9WzjZYUZcMdL7uNtl100XNPHlO6M1edz2UIzWPJgFHvk
-KRYxxa/aaGpbzanhcLUwaHAUNrciCGym5c4AGmG2KvI+cacpbYdGAaUmcwnO8VRA
-ez4VkgBFHyLVbUDGnXy9bWGn7Dsqev95LEdcjdiJG3DgmG4bz+cawQ==
-=lJna
+iQHxBAEBCABbFiEEPa/EZh6vbvhbJOKGM06Hb3c3IisFAmrwyZAbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTIsMCwzIRxidXJjMzM0QHVzZXJzLm5vcmVwbHkuZ2l0aHVi
+LmNvbQAKCRAzTodvdzciK3BHDACA68J+8OrcmYIi67ALDyB0vRfp9Q7HkSDD0Mvn
+PUZiTBRrBj5FweEqEm4HKxoy05ZjMgpNPQgphAYBWRN9P/ZHpDmRIg+DG1VNBzPY
++AwO4ymukxilj9ZWNLSrmhj95Zg7PXDWQsDO3rqvzbu/WaOE4yeMbzAuYhRQKPg7
+Nw8smJP7EBHbwhSLNY1xEjknmT6eRBPFZMbZLx2NrFJyWGqchN4VlqZ7TESwDxWp
+kbDf+S2HuHaT0Dt2rP3rINvq6j1WwlhoeEeS4ew26eqFuuU2DPfaYvsBHxpDlAvZ
+7Bk1lMg/Op4VqGFRt2I9WYYjUtoo7rMftEvAWViYWoMcUn5tTD9mxhqtkt7DSdxb
+ELVnKHPREntLn6LLn0Cz/PcVEji8eVOJ3VYzA0fMHipYMrDefmRQU/utagDSjHS7
+7coaFJIIvUxHK0PGUjS8tnSESNEsNbtd6ZdbbcUwnOTKk52WS68ccpQ/37J30WBT
+u84NqP4hBObT+fNchmt8NerUs0c=
+=Br1F
 -----END PGP SIGNATURE-----
