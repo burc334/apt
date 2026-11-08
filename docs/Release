@@ -6,28 +6,28 @@ Codename: ios
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Tweaks by burc334
-Date: Sun, 08 Nov 2026 19:12:16 GMT
+Date: Sun, 08 Nov 2026 21:43:08 GMT
 MD5Sum:
- 1ccf93e5aa99a963ac10f1917129caaa            12146 Packages
- bc765aec68d0ad12cc4031a87d050c3e             2799 Packages.gz
- f3811fe1acf6657c5d7fbe022fea5bf5             2688 Packages.xz
- ecfd361740d942976628ab921e5bd492             2615 Packages.zst
- a05d928a5ca5948735e208445bb2b8f2             2960 Packages.bz2
+ 4fb8b49cea73ad36e52aae197bcfded0            13518 Packages
+ 6484930ed909ea404b5543c51d3fd40b             3097 Packages.gz
+ 8e4f99f602dc04e8b9f891f2a6636ec8             2952 Packages.xz
+ fb89946201e3461db59b64df19e9ae14             2893 Packages.zst
+ caaf762cdcb89743952e1961fdeaaf89             3246 Packages.bz2
 SHA1:
- 6569f83107844b3d7ed5bcf86a7401f4a426df9d            12146 Packages
- 5859cd9d1b7034753e21af3e2bccb4f23481e1a0             2799 Packages.gz
- b34c535004bd4d6ef07ed6adaa39088baa74097b             2688 Packages.xz
- 3eafcf7f4ba10439fda4756771c3866f61135673             2615 Packages.zst
- 2cbb37bdeaf94d02991465bb46eabc1ef9704c2e             2960 Packages.bz2
+ 9518a309388a87f75e8c59fd30efc7a8d660f9f2            13518 Packages
+ 5971e53c04d7de9e731c2712f217adc31c92d58f             3097 Packages.gz
+ 24560eb6527199a3c16dc34c2fb773143e5d7671             2952 Packages.xz
+ e89a79c51719a98a3b8dcba2bd01de24f767a92a             2893 Packages.zst
+ 17b872caab72babea327ec263f0d3574a7f1de12             3246 Packages.bz2
 SHA256:
- b03ce6409bcb50953c76bbf54e5466b257d135d5eda10b3e61f5d2d4ff5db611            12146 Packages
- eef7f3eacbfe7dcbdd7c149dfe711d816ab23498da831bfe7bac1275d8927996             2799 Packages.gz
- 9f0b717c343007827eca37266e5f00bde620d15fe87d78e094afed371fef2a98             2688 Packages.xz
- 35372c81606cabefb7c202e72dd35ce1f6f1e1bf463f1522e40a8501f7fedc67             2615 Packages.zst
- d60aaa13ce84478477780738332cfa05808b101e59feb65778e72c352d3e5c85             2960 Packages.bz2
+ db445987ec9ab409a0bcc87603e0f2bc1dcf98a61e217e7ccd07cb4fa12e33fa            13518 Packages
+ 6c362d52737c7fa0ba829ad121caad04183d093ae2ef509016866ea99af4c58f             3097 Packages.gz
+ 4a6a3b575859cea3388734d0cad4dc36d6400113785014fa02f1d5ead3f71bab             2952 Packages.xz
+ b5ba1615657cd0e92cf0c5571e415630d5e932e2ae45bbb86cd45cecc986fdd6             2893 Packages.zst
+ f09392409fb88f3f9405f69981ce172c30304a2ea15a2c3e67680e1e23fbd5c8             3246 Packages.bz2
 SHA512:
- 04a0eeead48cde4aa3b9277257834b63a98864ce5c271fed7c3f06132e25a7273d159d3cbf71801bb6883ab7d9a06692fab98d589edc38a437da7a9db92465df            12146 Packages
- 42046e37a9bb00e9e9ccb4e308b42d21d0d1e91e7df9679f4aa88970e31b12acbf589a375cc6e656d277daf0992fa745b135af8d1760f322cb1ec869ad2f5779             2799 Packages.gz
- f264f74f9ceda42db4acfef1872691ad5c4811af98010589fa8144733d1e7ea114554f7565b725bec2b618cf90f1b6d7d12660b1e6e0a8abbc45a35e5cd783af             2688 Packages.xz
- 526b8a8f3657f6a5db1ae593ec0f53a42d003e6fc9b24f829faecbbf9bfaf293bc2d717f728f6f1f5a702147b39f3abd021ebcd6fed900b9c45123f0b7305269             2615 Packages.zst
- ccb47ae57f3064bba06a077ee96887bddda8b7790ac6bd5e28e3b2768e906ac4fe168a992518aef3553755e4539c8e82566f9c5d2322f4d6f60bae05dab8dba7             2960 Packages.bz2
+ 0b27d668aaf1d63fbc89aa1a13ba8ce3a133972b18430523fe2e66c1212fd7a2df9ff6bf7c483b9003aec17f85a413f6c3784ae1eb0e05c411e78dd8553beb14            13518 Packages
+ da78e0fd07e8fa86405c68af9bd25c31e44009c69c68f56d6363e02fd855d5f64ffd720bf09dc6617530221aaeafbd7b3bbb94a6a8b0eb28cb3987c8d8ddff3a             3097 Packages.gz
+ d9b24b434cca092471fee29ad3c1f042bbb6edb1f6ad78644af3b813591a9826b49e9dbd2228af809814246c73104fb86cded409282f94cb376071b1dc42e1a3             2952 Packages.xz
+ 1792903bb99be0c19829108910f4bafedc2bb5b404868ea7f0119540f731d65dae671cc8b9f07a918f845cfeca83c87b81d6457f18c38916e908c7f0dc291426             2893 Packages.zst
+ 933faec221b824806a48aeffea04c102b271d7d1c29437dc743f496ca8919b088c52ceaa8f3807af126f3ddbede4a419003a4556e00e23929ae717bae52ac3d0             3246 Packages.bz2

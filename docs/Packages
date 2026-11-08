@@ -1,5 +1,24 @@
 Package: com.burc334.airdropipafix
 Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: burc334
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 16.0)
+Filename: pool/com.burc334.airdropipafix_1.0.1_iphoneos-arm64e.deb
+Size: 3154
+MD5sum: 20730273a834445661fc0dc198eb70bf
+SHA1: 37f05fb4021db09ecf6997d3d0b7dd6fe5eaaa48
+SHA256: 0da206ad3ae1e5defccdc81081a94e7506cef55bfc254bedc1f90e7e12bf7349
+Section: Tweaks
+Description: Stops AirDrop from installing .ipa files automatically; received IPAs are saved as regular files.
+Author: burc334
+Depiction: https://burc334.github.io/AirDropIPAFix/
+Icon: https://burc334.github.io/AirDropIPAFix/icon.png
+Name: AirDrop IPA Fix
+SileoDepiction: https://burc334.github.io/AirDropIPAFix/depiction.json
+
+Package: com.burc334.airdropipafix
+Version: 1.0.1
 Architecture: iphoneos-arm64
 Maintainer: burc334
 Installed-Size: 168
@@ -17,24 +36,24 @@ Icon: https://burc334.github.io/AirDropIPAFix/icon.png
 Name: AirDrop IPA Fix
 SileoDepiction: https://burc334.github.io/AirDropIPAFix/depiction.json
 
-Package: com.burc334.airdropipafix
+Package: com.burc334.alwaysshowemojikey
 Version: 1.0.1
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: burc334
 Installed-Size: 168
-Depends: mobilesubstrate, firmware (>= 16.0)
-Filename: pool/com.burc334.airdropipafix_1.0.1_iphoneos-arm64e.deb
-Size: 3154
-MD5sum: 20730273a834445661fc0dc198eb70bf
-SHA1: 37f05fb4021db09ecf6997d3d0b7dd6fe5eaaa48
-SHA256: 0da206ad3ae1e5defccdc81081a94e7506cef55bfc254bedc1f90e7e12bf7349
+Depends: mobilesubstrate, firmware (>= 18.0)
+Filename: pool/com.burc334.alwaysshowemojikey_1.0.1_iphoneos-arm64.deb
+Size: 7082
+MD5sum: 895df5f9619804e9ab97787eb3edfc82
+SHA1: 1fb361248b5c05f4d1d12a8dc50f5a8b61c61d0d
+SHA256: 6dc5199ba4763ee548c03da1e06246382fbc9c38fb57d0d8de8b7a44615984dd
 Section: Tweaks
-Description: Stops AirDrop from installing .ipa files automatically; received IPAs are saved as regular files.
+Description: Keeps the native emoji key visible and usable next to the spacebar on iOS 18.
 Author: burc334
-Depiction: https://burc334.github.io/AirDropIPAFix/
-Icon: https://burc334.github.io/AirDropIPAFix/icon.png
-Name: AirDrop IPA Fix
-SileoDepiction: https://burc334.github.io/AirDropIPAFix/depiction.json
+Depiction: https://burc334.github.io/AlwaysShowEmojiKey/
+Icon: https://burc334.github.io/AlwaysShowEmojiKey/icon.png
+Name: Always Show Emoji Key
+SileoDepiction: https://burc334.github.io/AlwaysShowEmojiKey/depiction.json
 
 Package: com.burc334.alwaysshowemojikey
 Version: 1.0.1
@@ -55,24 +74,43 @@ Icon: https://burc334.github.io/AlwaysShowEmojiKey/icon.png
 Name: Always Show Emoji Key
 SileoDepiction: https://burc334.github.io/AlwaysShowEmojiKey/depiction.json
 
-Package: com.burc334.alwaysshowemojikey
-Version: 1.0.1
+Package: com.burc334.appdecrypt
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: burc334
+Installed-Size: 564
+Depends: firmware (>= 18.0), ldid, uikittools
+Filename: pool/com.burc334.appdecrypt_1.0.0_iphoneos-arm64e.deb
+Size: 261272
+MD5sum: 4c1ee619d36f3e7723aa86c969d30d3e
+SHA1: e9efa65a3c3d90589438d906beb47044fc08a429
+SHA256: 309539d08262eb9fc5b799ef6b89df19f955817b6c5d404d6bc7fe559e6c4a5e
+Section: Tweaks
+Description: Decrypt installed user apps into IPA files on-device.
+Author: burc334
+Depiction: https://burc334.github.io/AppDecrypt/
+Icon: https://burc334.github.io/AppDecrypt/icon.png
+Name: AppDecrypt
+SileoDepiction: https://burc334.github.io/AppDecrypt/depiction.json
+
+Package: com.burc334.appdecrypt
+Version: 1.0.0
 Architecture: iphoneos-arm64
 Maintainer: burc334
-Installed-Size: 168
-Depends: mobilesubstrate, firmware (>= 18.0)
-Filename: pool/com.burc334.alwaysshowemojikey_1.0.1_iphoneos-arm64.deb
-Size: 7082
-MD5sum: 895df5f9619804e9ab97787eb3edfc82
-SHA1: 1fb361248b5c05f4d1d12a8dc50f5a8b61c61d0d
-SHA256: 6dc5199ba4763ee548c03da1e06246382fbc9c38fb57d0d8de8b7a44615984dd
+Installed-Size: 564
+Depends: firmware (>= 18.0), ldid, uikittools
+Filename: pool/com.burc334.appdecrypt_1.0.0_iphoneos-arm64.deb
+Size: 261112
+MD5sum: ddd3d635fd4aabb055476ab84e58fc22
+SHA1: fd5c55e03ca35cf78a9f92601e2fbb97199e73ea
+SHA256: 7fb4ad2b89cb573aa883f90f24d8c04a2e383d951821b225df6c60c70523efdd
 Section: Tweaks
-Description: Keeps the native emoji key visible and usable next to the spacebar on iOS 18.
+Description: Decrypt installed user apps into IPA files on-device.
 Author: burc334
-Depiction: https://burc334.github.io/AlwaysShowEmojiKey/
-Icon: https://burc334.github.io/AlwaysShowEmojiKey/icon.png
-Name: Always Show Emoji Key
-SileoDepiction: https://burc334.github.io/AlwaysShowEmojiKey/depiction.json
+Depiction: https://burc334.github.io/AppDecrypt/
+Icon: https://burc334.github.io/AppDecrypt/icon.png
+Name: AppDecrypt
+SileoDepiction: https://burc334.github.io/AppDecrypt/depiction.json
 
 Package: com.burc334.carrierhider
 Version: 1.0.1
@@ -114,15 +152,15 @@ SileoDepiction: https://burc334.github.io/CarrierHider/depiction.json
 
 Package: com.burc334.copylogfix18
 Version: 1.0.0
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: burc334
 Installed-Size: 200
 Depends: mobilesubstrate, firmware (>= 16.0), me.tomt000.copylog (>= 1.7)
-Filename: pool/com.burc334.copylogfix18_1.0.0_iphoneos-arm64e.deb
-Size: 4790
-MD5sum: a0ab114cbf4364e55bd2a1fcb9c57f95
-SHA1: 6f86df03c20dd00afb7f7486122bfbcec205d747
-SHA256: cb1a9ab80e540aefb9a1774a496efbff24d779138215ac836f043c7f09894482
+Filename: pool/com.burc334.copylogfix18_1.0.0_iphoneos-arm64.deb
+Size: 4462
+MD5sum: 0bb56ea186bb298c9324b00c8008c709
+SHA1: 5975d64bb894beb42c5d7837723d2d82ee233d74
+SHA256: 2c7bcc655536517e3fa04946d8c93121ac008f5f95f17d7a6dd63d840833cbe6
 Section: Tweaks
 Description: iOS 18 compatibility fix for CopyLog 1.7.x that prevents the pasted daemon crash caused by DRPasteAnnouncementContinuityEndpoint.
 Author: burc334
@@ -133,15 +171,15 @@ SileoDepiction: https://burc334.github.io/CopyLogFix18/depiction.json
 
 Package: com.burc334.copylogfix18
 Version: 1.0.0
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: burc334
 Installed-Size: 200
 Depends: mobilesubstrate, firmware (>= 16.0), me.tomt000.copylog (>= 1.7)
-Filename: pool/com.burc334.copylogfix18_1.0.0_iphoneos-arm64.deb
-Size: 4462
-MD5sum: 0bb56ea186bb298c9324b00c8008c709
-SHA1: 5975d64bb894beb42c5d7837723d2d82ee233d74
-SHA256: 2c7bcc655536517e3fa04946d8c93121ac008f5f95f17d7a6dd63d840833cbe6
+Filename: pool/com.burc334.copylogfix18_1.0.0_iphoneos-arm64e.deb
+Size: 4790
+MD5sum: a0ab114cbf4364e55bd2a1fcb9c57f95
+SHA1: 6f86df03c20dd00afb7f7486122bfbcec205d747
+SHA256: cb1a9ab80e540aefb9a1774a496efbff24d779138215ac836f043c7f09894482
 Section: Tweaks
 Description: iOS 18 compatibility fix for CopyLog 1.7.x that prevents the pasted daemon crash caused by DRPasteAnnouncementContinuityEndpoint.
 Author: burc334
@@ -228,25 +266,6 @@ SileoDepiction: https://burc334.github.io/NightNight/depiction.json
 
 Package: com.burc334.notifilter
 Version: 1.0.1
-Architecture: iphoneos-arm64e
-Maintainer: burc334
-Installed-Size: 540
-Depends: mobilesubstrate, preferenceloader, firmware (>= 18.0)
-Filename: pool/com.burc334.notifilter_1.0.1_iphoneos-arm64e.deb
-Size: 96284
-MD5sum: da4a8aa74c494aeb7a2d41cdf69f2730
-SHA1: c9fcb47f1740e8d87de70472cb6b6582d566224b
-SHA256: 103370c9328ea943dfeae549935db25f6df01c3a015acefac5e42dee383ff658
-Section: Tweaks
-Description: Filter, mute, or allow iOS 18 notifications by app, content, and schedule.
-Author: burc334
-Depiction: https://burc334.github.io/NotiFilter/
-Icon: https://burc334.github.io/NotiFilter/icon.png
-Name: NotiFilter
-SileoDepiction: https://burc334.github.io/NotiFilter/depiction.json
-
-Package: com.burc334.notifilter
-Version: 1.0.1
 Architecture: iphoneos-arm64
 Maintainer: burc334
 Installed-Size: 540
@@ -264,26 +283,24 @@ Icon: https://burc334.github.io/NotiFilter/icon.png
 Name: NotiFilter
 SileoDepiction: https://burc334.github.io/NotiFilter/depiction.json
 
-Package: com.burc334.swipeselectionreborn
+Package: com.burc334.notifilter
 Version: 1.0.1
 Architecture: iphoneos-arm64e
 Maintainer: burc334
-Installed-Size: 444
-Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0)
-Conflicts: com.icraze.swipeselection, com.iky1e.swipeselection, com.burc334.swipeselectionx
-Replaces: com.burc334.swipeselectionx
-Filename: pool/com.burc334.swipeselectionreborn_1.0.1_iphoneos-arm64e.deb
-Size: 54382
-MD5sum: 59039d4ae76e586e9dc79f4a3935c340
-SHA1: 3dec48f35dc1a59429fe9e5e732183e39b31d28f
-SHA256: af3b22d770f4ab1441cb9476e5d3a77ece9a71684683e999721f030188eab732
+Installed-Size: 540
+Depends: mobilesubstrate, preferenceloader, firmware (>= 18.0)
+Filename: pool/com.burc334.notifilter_1.0.1_iphoneos-arm64e.deb
+Size: 96284
+MD5sum: da4a8aa74c494aeb7a2d41cdf69f2730
+SHA1: c9fcb47f1740e8d87de70472cb6b6582d566224b
+SHA256: 103370c9328ea943dfeae549935db25f6df01c3a015acefac5e42dee383ff658
 Section: Tweaks
-Description: Swipe the keyboard to move the cursor and select text on iOS 16+.
+Description: Filter, mute, or allow iOS 18 notifications by app, content, and schedule.
 Author: burc334
-Depiction: https://burc334.github.io/SwipeSelectionReborn/
-Icon: https://burc334.github.io/SwipeSelectionReborn/icon.png
-Name: SwipeSelection Reborn
-SileoDepiction: https://burc334.github.io/SwipeSelectionReborn/depiction.json
+Depiction: https://burc334.github.io/NotiFilter/
+Icon: https://burc334.github.io/NotiFilter/icon.png
+Name: NotiFilter
+SileoDepiction: https://burc334.github.io/NotiFilter/depiction.json
 
 Package: com.burc334.swipeselectionreborn
 Version: 1.0.1
@@ -298,6 +315,27 @@ Size: 45796
 MD5sum: 90f4fb551da586a9c6c973a2918c8dbe
 SHA1: b5a82adc41cf4170cb05387e29c250669dbb2ee9
 SHA256: af86d05448a3b6ee7829b160b4ce651e3ccb576dc21ce9a79fcc93809e873742
+Section: Tweaks
+Description: Swipe the keyboard to move the cursor and select text on iOS 16+.
+Author: burc334
+Depiction: https://burc334.github.io/SwipeSelectionReborn/
+Icon: https://burc334.github.io/SwipeSelectionReborn/icon.png
+Name: SwipeSelection Reborn
+SileoDepiction: https://burc334.github.io/SwipeSelectionReborn/depiction.json
+
+Package: com.burc334.swipeselectionreborn
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: burc334
+Installed-Size: 444
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0)
+Conflicts: com.icraze.swipeselection, com.iky1e.swipeselection, com.burc334.swipeselectionx
+Replaces: com.burc334.swipeselectionx
+Filename: pool/com.burc334.swipeselectionreborn_1.0.1_iphoneos-arm64e.deb
+Size: 54382
+MD5sum: 59039d4ae76e586e9dc79f4a3935c340
+SHA1: 3dec48f35dc1a59429fe9e5e732183e39b31d28f
+SHA256: af3b22d770f4ab1441cb9476e5d3a77ece9a71684683e999721f030188eab732
 Section: Tweaks
 Description: Swipe the keyboard to move the cursor and select text on iOS 16+.
 Author: burc334
