@@ -188,6 +188,44 @@ Icon: https://burc334.github.io/CopyLogFix18/icon.png
 Name: CopyLogFix18
 SileoDepiction: https://burc334.github.io/CopyLogFix18/depiction.json
 
+Package: com.burc334.dpibypass
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: burc334
+Installed-Size: 664
+Depends: ellekit | mobilesubstrate, preferenceloader
+Filename: pool/com.burc334.dpibypass_1.0.0_iphoneos-arm64e.deb
+Size: 160746
+MD5sum: f8c638b925ec53d77a9094a4f9632d91
+SHA1: 11e766fa0a270481b42e5d7119f8037c8c86d434
+SHA256: 90b7562f9f6bc6d1a02e2f674bcea0ab531edff7111acfa69807884a33661fbd
+Section: Tweaks
+Description: Per-app DPI bypass for selected apps.
+Author: burc334
+Depiction: https://burc334.github.io/DPIBypass/
+Icon: https://burc334.github.io/DPIBypass/icon.png
+Name: DPI Bypass
+SileoDepiction: https://burc334.github.io/DPIBypass/depiction.json
+
+Package: com.burc334.dpibypass
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: burc334
+Installed-Size: 664
+Depends: ellekit | mobilesubstrate, preferenceloader
+Filename: pool/com.burc334.dpibypass_1.0.0_iphoneos-arm64.deb
+Size: 141744
+MD5sum: f757f9889da59a9f11cfa056d2d37227
+SHA1: bd42a80cde545b05d564b9555eeb5cb84cc096a2
+SHA256: e698b435441e434ae697608431ba553c4148affd78b6a8b7210df88787e3bb72
+Section: Tweaks
+Description: Per-app DPI bypass for selected apps.
+Author: burc334
+Depiction: https://burc334.github.io/DPIBypass/
+Icon: https://burc334.github.io/DPIBypass/icon.png
+Name: DPI Bypass
+SileoDepiction: https://burc334.github.io/DPIBypass/depiction.json
+
 Package: com.burc334.hidebreadcrumbs
 Version: 1.0.0
 Architecture: iphoneos-arm64e
