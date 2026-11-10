@@ -7,6 +7,7 @@ trap 'rm -rf "$TMP"' EXIT
 
 repos=(
     AppDecrypt
+    DPIBypass
     NightNight
     NotiFilter
     AlwaysShowEmojiKey
